@@ -45,7 +45,7 @@
 
             $subject = "Password Reset";
             $body = " Hi, $fname. Click here too Reset Your Password http://localhost/phpproject/reset_pass.php?token=$token ";
-            $sender_email = "From: 2001vedant@gmail.com";
+            $sender_email = "From: anujdarji2001@gmail.com";
 
             if(mail($email, $subject, $body, $sender_email))
             {

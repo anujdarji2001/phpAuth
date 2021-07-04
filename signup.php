@@ -71,8 +71,8 @@
                 if($iquery)
                 {
                     $subject = "Email Activation";
-                    $body = " Hi, $fname. Click here too activate your account http://remotemysql.com/phpproject/activate.php?token=$token ";
-                    $sender_email = "From: 2001vedant@gmail.com";
+                    $body = " Hi, $fname. Click here too activate your account http://localhost/phpproject/activate.php?token=$token ";
+                    $sender_email = "From: anujdarji2001@gmail.com";
 
                     if(mail($email, $subject, $body, $sender_email))
                     {
